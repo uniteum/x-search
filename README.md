@@ -28,6 +28,13 @@ npm install
 
 Set the `X_BEARER_TOKEN` environment variable to your Twitter API v2 bearer token.
 
+To get a bearer token:
+
+1. Go to the [Twitter Developer Portal](https://developer.x.com/en/portal/dashboard).
+2. Create a project and app (or use an existing one).
+3. Under your app's **Keys and tokens** tab, find **Bearer Token** and click **Generate**.
+4. The search endpoints require at least **Basic** API access tier.
+
 ## Usage
 
 ```bash
